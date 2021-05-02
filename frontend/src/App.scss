@@ -1,0 +1,38 @@
+.App-header {
+  display: flex;
+  /*! justify-content: unset; */
+  align-items: center;
+  padding: 1rem;
+  background: blueviolet;
+  color: whitesmoke;
+}
+
+.App-header > nav:nth-child(1) {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.button {
+  border: 1px solid grey;
+  width: 2rem;
+  color: blueviolet;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 4px;
+}
+
+.nav-items {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}
+
+.nav-item {
+  padding: 5px;
+}
+
+.Container {
+  padding: 1rem;
+}
